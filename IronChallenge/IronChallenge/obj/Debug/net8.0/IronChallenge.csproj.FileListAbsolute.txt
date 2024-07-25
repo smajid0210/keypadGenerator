@@ -1,0 +1,16 @@
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\bin\Debug\net8.0\IronChallenge.exe
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\bin\Debug\net8.0\IronChallenge.deps.json
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\bin\Debug\net8.0\IronChallenge.runtimeconfig.json
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\bin\Debug\net8.0\IronChallenge.dll
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\bin\Debug\net8.0\IronChallenge.pdb
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\obj\Debug\net8.0\IronChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\obj\Debug\net8.0\IronChallenge.AssemblyInfoInputs.cache
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\obj\Debug\net8.0\IronChallenge.AssemblyInfo.cs
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\obj\Debug\net8.0\IronChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\obj\Debug\net8.0\IronChallenge.dll
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\obj\Debug\net8.0\refint\IronChallenge.dll
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\obj\Debug\net8.0\IronChallenge.pdb
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\obj\Debug\net8.0\IronChallenge.genruntimeconfig.cache
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\obj\Debug\net8.0\ref\IronChallenge.dll
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\bin\Debug\net8.0\io\input.txt
+C:\Users\Rana\source\repos\IronChallenge\IronChallenge\bin\Debug\net8.0\io\output.txt
