@@ -23,9 +23,9 @@ Create an application that reads any keypad input and converts it to the correct
  According to the problem statement, we are considering the following keys of the phone keypad
  for extracting the message.
 
- 0-9: These keys will map to the alphabetical letters of the message.
- * : This key will map to the backspace key.
- # : This key will map to the send button.
+ '0'-'9': These keys will map to the alphabetical letters of the message.
+ '*' : This key will map to the backspace key.
+ '#' : This key will map to the send button.
 
  Here is the algorithm to follow in order to generate the correct output message:
 
