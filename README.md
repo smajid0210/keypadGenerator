@@ -1,6 +1,12 @@
 # keypadGenerator
 Generate correct message from Old Button Phone Keypad Inputs.
 
+## How to Run
+1. Clone the project.
+2. Open the "IronChallenge.sln" file in your code editor.
+3. Run the project.
+4. See the correct output messages in "io/output.txt" file which scans input from "io/input.txt" file.
+
 ## Problem Statement
 
 Here is an old phone keypad with alphabetical letters, a
