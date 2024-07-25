@@ -49,4 +49,41 @@ Create an application that reads any keypad input and converts it to the correct
 7. When a '#' is encountered, it signifies end of the string, so set the last character of the
    string and terminate the iteration.
 
-8. Return the output string. 
+8. Return the output string.
+
+## Data Structures Used:
+
+  For mapping the keys to characters, a 2d jagged array is used. The first dimension has indexes
+  0 to 9 and the second dimension is variable with sizes 1,3 or 4.
+
+  For maintaining the output string characters as we iterate over the input, a Double Ended Queue 
+  is implemented. The implementation is done using LinkedList.
+
+  Finally, for returning the result string as output, StringBuilder is used to generate the string
+  from the Double Ended Queue.
+
+## Test Cases:
+
+  All test cases are documented in "io/input.txt" file. When the application runs, the file is scanned
+  line by line. Each line corresponds to an input. The output of each line is written in "io/output.txt"
+  file. 
+
+  Multiple corner cases were represented in the test case file. These cases are listed below-
+
+  * : Input: "8 88777444666*664#" , Output: "TURING". This covers the case where same character can come twice
+      repeatedly and has to be represented with a SPACE to signify pause.
+
+  * : Input: "77774423626606254443#" , Output: "SHADMAN MAJID". This covers the case where the SPACE key is
+      properly handled and shown in the output string.
+
+  * : Input: "444811777702226663 33#", Output: "IT'S CODE". This covers the case where the special Single Quote
+     character is handled properly and shown in the output string.
+
+  * : Input: 44433*555**#, Output: " ". This covers the case where all characters are deleted and the empty string
+      is shown properly as output.
+
+  * : Input: "44433***555#", Output: "L". This covers the case where pressing the backspace key even when there are
+      no characters in the output string, does not result in an exception and deletes no unexpected characters.
+
+  * : Input: "4444#", Output: "Invalid input: 4444#". This covers the case where an invalid input is passed and the
+      exception message is displayed properly after catching the exception in runtime. 
